@@ -1,0 +1,109 @@
+<HTML>
+<HEAD>
+[%CHARSET%]
+
+<STYLE>
+<!--
+.node_table {
+	background-color: Silver;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: 200px;
+}
+A.node:link,A.node:active,A.node:visited {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: Black;	
+	text-decoration: none;
+}
+A.node:hover {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: Navy;	
+	text-decoration: underline;	
+}
+A:link,A:active,A:visited {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: Black;	
+	text-decoration: none;
+}
+A:hover {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: Navy;	
+	text-decoration: underline;	
+}
+.node_off {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: Black;	
+}
+.node_on {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: White;	
+	background-color: Black;
+}	
+body,td {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	background-color: White;
+	color: Black;
+}
+input {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	background-color: White;
+	color: Navy;	
+	border: 1px inset;
+	width: 160px;
+}
+// -->
+</STYLE>
+
+<TITLE>Demo website with WORKFLOW</TITLE>
+</HEAD>
+
+<BODY>
+
+<table border=0 width=100%>
+<tr>
+<td width=20%><b>SITE LOGO</b></td>
+<td colspan=2 align=right>&nbsp;<a href=x_switchlocale.php?setlocale=1>ελληνικά</a>-<a href=x_switchlocale.php?setlocale=2>english</a></td>
+</tr>
+<tr>
+<td width=20% valign=top>
+	[%MENU%]
+	
+	<BR>
+	Search:
+	[%SEARCHFORM%]
+	
+</td>
+<td width=60% valign=top>
+	[%PATH%]
+	<hr>
+	
+	<div align=right style="position:relative">[%RELATED_MEDIA_IN(0)%]</div>
+	
+	[%CONTENT%]
+	
+</td>
+<td width=20% valign=top>
+
+	[%ADS%]
+	
+	<BR><BR>
+	
+	[%RELATED_FILES%]
+	
+	<BR><BR>
+	
+	[%RELATED_ARTICLES%]
+</td>
+</tr>
+</table>
+
+</BODY>
+</HTML>

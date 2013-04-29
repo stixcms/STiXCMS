@@ -1,0 +1,14 @@
+body { text-decoration: none; color: #000000; background-color: #E0E5E0; font-family: verdana, Arial, sans-serif; font-size: 10px; }
+
+td { text-decoration: none; color: #000000; font-family: verdana, Arial, sans-serif; font-size: 10px; }
+.tab { border: 1px solid #AACCAA; }
+
+h1 { text-decoration: none; font-weight: bold; color: #335333; font-family: Verdana, Arial, sans-serif; font-size: 14px }
+
+a:link { text-decoration: none; font-weight: normal; color: #246400; font-family: Verdana, Arial, sans-serif; font-size: 11px; }
+a:visited { text-decoration: none; font-weight: normal; color: #246400; font-family: Verdana, Arial, sans-serif; font-size: 11px; }
+a:hover { text-decoration: underline; font-weight: normal; color: #246400; font-family: Verdana, Arial, sans-serif; font-size: 11px; }
+
+input,select { text-decoration: none; color: #000000; font-family: Verdana, Arial, sans-serif; font-size: 10px;}
+.button { FONT-SIZE: 11px; COLOR: #FFFFFF; FONT-FAMILY: Verdana, arial,sans-serif; }
+

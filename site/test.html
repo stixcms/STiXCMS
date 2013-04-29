@@ -1,0 +1,51 @@
+<HTML>
+<HEAD>
+[%CHARSET%]
+
+<STYLE>
+<!--
+
+// -->
+</STYLE>
+
+<TITLE>test</TITLE>
+</HEAD>
+
+<BODY bgcolor=#CCCCCC text=#000000>
+
+<table border=0 width=100% height=100%>
+<tr>
+<td colspan=3 align=center bgcolor=#DDDDDD><h1>SITE HEADER</h1></td>
+</tr>
+<tr>
+<td width=20% valign=top>
+	[%MENU%]
+	
+	<BR>
+	Search:
+	[%SEARCHFORM%]
+	
+</td>
+<td width=60% valign=top>
+	you are in: [%PATH%]
+	<hr>
+	
+	<div align=right style="position:relative">[%RELATED_MEDIA_IN(0)%]</div>
+	[%CONTENT%]
+</td>
+<td width=20% valign=top>
+	[%ADS%]
+	
+	<BR><BR>
+	
+	[%RELATED_FILES%]
+	
+	<BR><BR>
+	
+	[%RELATED_ARTICLES%]
+</td>
+</tr>
+</table>
+
+</BODY>
+</HTML>
